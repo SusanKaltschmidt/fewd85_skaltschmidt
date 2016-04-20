@@ -1,0 +1,189 @@
+
+body{
+
+  font-size: 1.5em;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+p{
+margin: 0 auto;
+  color: gray;
+}
+
+.header{
+  
+  background-image: url("../img/header_bg.jpg");
+  background-size: 100%;
+  height: 700px;
+
+ 
+}
+
+h1{
+
+  color:white;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10%;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+}
+
+
+
+h3{
+color: gray;
+font-style: italic;
+font-size: 2em;
+width: 600px;
+font-weight: 200;
+text-align: center;
+line-height: 1.2;
+}
+
+h4{
+
+  font-weight: 900;
+  font-size: 1.3em;
+  padding-top: 20px;
+  padding-left: 100px;
+  color: white;
+  letter-spacing: 0.25em;
+}
+
+h4#yellow{
+
+  font-weight: 800;
+  font-size: 1.3em;
+  text-align: center;
+  color: yellow;
+  letter-spacing: 0.2em;
+  padding-left: 0;
+}
+
+h5{
+
+  font-size: 0.5em;
+  padding-top: 20px;
+  text-align: center;
+  color: gray;
+
+}
+
+
+
+section{
+
+  width: 100%;
+  height: 400px;
+
+}
+
+section.middle-part{
+
+   margin: 150px;
+   text-align: left;
+}
+
+section.middle-part ul{
+
+   margin-left: 100px;
+   margin-top: 40px;
+   text-align: left;
+   color:gray;
+   line-height: 1.6;
+}
+
+.low-part{
+  background-image: url("../img/testimonial_bg.jpg");
+  text-align: center;
+  background-size: cover;
+  margin: 0px auto;
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+
+
+}
+
+.low-part p{
+
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  font-size: 1.7em;
+  font-weight: 100;
+  text-align: center;
+  width: 400px;
+  line-height: 1.2;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.low-part.quotation{
+  text-align: center;
+}
+
+.yellow-low-part{
+  margin: 0 auto;
+  background-color: #f5d211;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+}
+
+.button-position .button-gray{
+    background-color: #f5d211; 
+    letter-spacing: 0.04em;
+    border: none;
+    color: white;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 4px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #414141;
+}
+
+
+
+.button-position{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button {
+    background-color: #f5d211; 
+    letter-spacing: 0.04em;
+    border: none;
+    color: #4f6586;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 4px;
+    position: relative;
+    margin: 0 auto;
+
+   
+}
+
+
+.icons img{
+ margin: 10px;
+  
+}
+
+footer{
+  text-align: center;
+  background-color: #414141;
+  padding: 0;
+  height: 300px;
+  width: 100%;
+}
