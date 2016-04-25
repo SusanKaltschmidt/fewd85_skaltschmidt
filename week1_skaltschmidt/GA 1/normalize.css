@@ -104,6 +104,8 @@ a:hover {
   outline-width: 0;
 }
 
+
+
 /* Text-level semantics
    ========================================================================== */
 
@@ -144,19 +146,13 @@ dfn {
   font-style: italic;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
 
-h1 {
+
+/*h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
+}*/
 
-/**
- * Add the correct background and color in IE 9-.
- */
 
 mark {
   background-color: #ff0;
