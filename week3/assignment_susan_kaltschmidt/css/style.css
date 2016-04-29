@@ -169,6 +169,15 @@ section.content-left{
 
 }
 
+section.content-left::first-letter {
+  font-weight: bold;
+  color: gray;
+  font-size: 70px;
+  padding-right: 10px;
+  padding-top: 20px;
+  float: left;
+}
+
 
 section.content-left-section-two{
   padding-top: 30px;
@@ -181,13 +190,14 @@ section.content-left-section-two{
 
 }
 
-
-section.content-left-section-two::first-letter{
-  font-size: 30px;
- color: red;
-
+section.content-left-section-two::first-letter {
+  font-weight: bold;
+  color: gray;
+  font-size: 70px;
+  padding-right: 10px;
+  padding-top: 20px;
+  float: left;
 }
-
 
 
 
@@ -219,6 +229,7 @@ aside.right-section{
   font-size: 0.9em;
   font-weight: 200;
 }
+
 
 
 aside.right-section p{
