@@ -58,26 +58,6 @@ h5{
   font-size: 0.8em;
 }
 
-aside.right-section p{
-  font-size: 1.5em;
-  float: left;
-  color: gray;
-  padding-bottom: 30px;
-  font-weight: 900;
-  padding-top: -50px;
-
-}
-
-aside.right-section-bottom p{
-  font-size: 1.5em;
-  float: left;
-  color: gray;
-  padding-bottom: 30px;
-  font-weight: 900;
-  padding-top: -50px;
-
-}
-
 
 p{
   margin: 0 auto;
@@ -233,11 +213,22 @@ aside.right-section{
   display: inline-block;
   vertical-align: top;
   margin-top: 0;
-  margin-left: 30px;
+  margin-left: -120px;
   color:#2f2f2f;
   line-height: 1.4em;
   font-size: 0.9em;
   font-weight: 200;
+}
+
+
+aside.right-section p{
+  font-size: 1.5em;
+  float: left;
+  color: gray;
+  padding-bottom: 30px;
+  font-weight: 900;
+  padding-top: -50px;
+
 }
 
 
@@ -245,14 +236,60 @@ aside.right-section-bottom{
   width: 200px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 0;
   margin-left: 30px;
   color:#2f2f2f;
   line-height: 1.4em;
   font-size: 0.9em;
   font-weight: 200;
-  position: relative;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 280px;
+
 }
+
+
+
+
+aside.right-section-bottom p{
+  font-size: 1.5em;
+  float: left;
+  color: gray;
+  padding-bottom: 30px;
+  font-weight: 900;
+  padding-top: -50px;
+
+}
+
+aside.right-section-ads{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  color:#2f2f2f;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  font-weight: 200;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 280px;
+  background-color: white;
+  height: 300px;
+
+}
+
+
+
+
+aside.right-section-ads p{
+  font-size: 1.5em;
+  float: left;
+  color: gray;
+  padding-bottom: 30px;
+  font-weight: 900;
+  padding-top: -50px;
+
+}
+
 
 
 section.last-section{
