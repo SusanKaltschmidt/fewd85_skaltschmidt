@@ -9,58 +9,6 @@ body{
 }
 
 
-nav{
-
-  width: 100%;
-  height: 80px;
-  background-color: #2a4053;
-  font-size: 1em;
- 
-}
-
-
-
-
-nav span{
-  color:white;
-  font-weight: bold;
-  padding-left: 240px;
-  padding-top: 30px;
-  margin: 0 auto;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-}
-
-
-nav ul{
-  width: 100%;
-  margin: 0 auto;
-
-}
-
-
-nav ul li:hover{
-  color:gray;
-}
-
-nav ul li{
-  display: inline-block;
-  margin-left:20px;
-  margin-right: 0px;
-  color:#efe31d; 
-}
-
-
-hr{
-  width: 700px;
-  margin-top: 50px;
-  margin-left: 0;
-  text-align: left;
-  height: 2px;
-  background-color:gray;
-}
-
-
 h2{
 
 
@@ -164,30 +112,8 @@ section{
 
 
 
-section.content-left{
-  padding-top: 30px;
-  color:#2f2f2f;
-  line-height: 1.4em;
-  font-size: 0.9em;
-  font-weight: 200;
-  width: 70%;
-  min-width: 400px;
-  display: inline-block;
 
 
-}
-
-section.content-left{
-  padding-top: 30px;
-  color:#2f2f2f;
-  line-height: 1.4em;
-  font-size: 0.9em;
-  font-weight: 200;
-  width: 700px;
-  display: inline-block;
-
-
-}
 
 section.content-left::first-letter {
   font-weight: bold;
@@ -367,3 +293,254 @@ footer{
   height: 100%;
   width: 100%;
 }
+
+
+
+
+@media only screen and (max-device-width : 2280px) 
+and (min-device-width: 1281px){
+
+
+nav{
+
+  width: 100%;
+  height: 80px;
+  background-color: #2a4053;
+  font-size: 1em;
+ 
+}
+
+
+
+
+nav span{
+  color:white;
+  font-weight: bold;
+  padding-left: 240px;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  min-width: 10%;
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+
+nav ul{
+  width: 50%;
+  margin: -30px auto;
+
+}
+
+
+nav ul li:hover{
+  color:gray;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:20px;
+  margin-right: 0px;
+  color:#efe31d; 
+}
+
+
+hr{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 0;
+  text-align: left;
+  height: 2px;
+  background-color:gray;
+}
+
+section.content-left{
+  padding-top: 30px;
+  color:#2f2f2f;
+  line-height: 1.4em;
+  font-size: 90%;
+  font-weight: 200;
+  width: 80%;
+  min-width: 400px;
+  display: inline-block;
+
+}
+}
+
+
+@media only screen and (max-device-width : 1280px) 
+and (min-device-width:769px){
+
+
+nav{
+
+  width: 100%;
+  height: 80px;
+  background-color: #2a4053;
+  font-size: 1em;
+ 
+}
+
+
+
+
+nav span{
+  color:white;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  min-width: 20%;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+
+nav ul{
+  width: 20%;
+  margin: -30px auto;
+
+}
+
+
+nav ul li:hover{
+  color:gray;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:20px;
+  margin-right: 0px;
+  color:#efe31d; 
+}
+
+
+hr{
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 0;
+  text-align: left;
+  height: 2px;
+  background-color:gray;
+}
+
+
+section.content-left{
+  padding-top: 30px;
+  color:#2f2f2f;
+  line-height: 1.4em;
+  font-size: 80%;
+  font-weight: 200;
+  width: 50%;
+  min-width: 400px;
+  display: inline-block;
+
+
+}
+
+}
+
+
+@media only screen and (max-device-width : 768px){
+
+
+nav{
+
+  width: 100%;
+  height: 80px;
+  background-color: #2a4053;
+  font-size: 1rem;
+ 
+}
+
+
+
+
+nav span{
+  color:white;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  min-width: 20%;
+  display: inline-block;
+  margin-right-right: 30px;
+}
+
+
+nav ul{
+  width: 10%;
+  margin: -30px auto;
+
+}
+
+
+nav ul li:hover{
+  color:gray;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:20px;
+  margin-right: 0px;
+  color:#efe31d; 
+}
+
+
+hr{
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 0;
+  text-align: left;
+  height: 2px;
+  background-color:gray;
+}
+
+
+section.content-left{
+  padding-top: 30px;
+  color:#2f2f2f;
+  line-height: 1.4em;
+  font-size: 0.9em;
+  font-weight: 200;
+  width: 50%;
+  min-width: 400px;
+  display: inline-block;
+
+
+}
+
+h2{
+
+
+  font-size: 0.6em;
+  float: left;
+  color: #2f2f2f;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding-top: 50px;
+  
+
+}
+
+
+
+h3{
+color: gray;
+font-style: italic;
+font-size: 1em;
+width: 600px;
+font-weight: 200;
+text-align: center;
+line-height: 1.2;
+}
+
+}
+
+
