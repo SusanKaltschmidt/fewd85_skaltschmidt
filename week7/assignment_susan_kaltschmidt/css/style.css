@@ -62,7 +62,7 @@ footer{
 
 
 
-@media screen and (max-device-width : 2280px) 
+@media only screen and (max-device-width : 2280px) 
 {
 
   body{
